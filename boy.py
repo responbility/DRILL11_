@@ -198,3 +198,7 @@ class Boy:
             self.ball_count += 1
         pass
 
+    def hande_collision(self, group, other):
+        if group == 'boy:zombie':
+            self.ball_count += 1
+        pass
